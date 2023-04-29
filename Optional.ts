@@ -1,8 +1,13 @@
-//Default Arguments
+//Optional Arguments
 
-//Number of Default arguments are 2
-//Default arguments should be trailing (From right to left)
-function Demo(no1:number, no2:number = 20, no3:number=30)
+function Demo(no1:number, no2?:number)
 {
 	console.log("Inside Demo");
+	if(no2 != undefined)
+	{
+		console.log("Value of no2 : "+no2);
+	}
 }
+
+Demo(10,11);		// no1 = 10	no2 = 11
+Demo(10);		// no1 = 10 	no2 = undefined
