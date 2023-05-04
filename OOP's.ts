@@ -46,6 +46,9 @@ console.log("Addition is : " +Ret);
 Ret = obj2.Subtraction();
 console.log("Subtraction is : " +Ret);
 
+
+
+
 //Kay Karaych ahe?	(Behaviours/Functions)
 //Addition & Sbtraction
 
