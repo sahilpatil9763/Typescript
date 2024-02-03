@@ -33,8 +33,7 @@ function Iteration_While():void
     while(i<=5)
     {
         console.log("Hello");
-        i++;
-
+        i++; 
     }
 }
 
