@@ -13,4 +13,4 @@ var i:number = 0;
 for(i=0; i<Arr.length; i++)
 {
 	console.log(Arr[i]);	//4
-}
+} 
